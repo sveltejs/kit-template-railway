@@ -1,7 +1,7 @@
 import { env } from '$env/dynamic/private';
 import { sql } from 'drizzle-orm';
-import { db } from '$lib/server/db';
-import { user } from '$lib/server/db/auth.schema';
+import { db } from '#lib/server/db';
+import { user } from '#lib/server/db/auth.schema';
 
 export const load = async () => {
 	let database;

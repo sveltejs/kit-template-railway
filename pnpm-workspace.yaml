@@ -1,2 +1,4 @@
-onlyBuiltDependencies:
-  - esbuild
+allowBuilds:
+  esbuild: true
+minimumReleaseAgeExclude:
+  - '@sveltejs/kit@3.0.0'
