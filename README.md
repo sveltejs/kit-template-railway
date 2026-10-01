@@ -17,7 +17,7 @@ To recreate this project with the same configuration:
 
 ```sh
 # recreate this project
-pnpm dlx sv@1.0.1 create --template minimal --types ts --add drizzle="database:postgresql+postgresql:postgres.js+docker:yes" better-auth="demo:password" sv-addon-railway="projectName:Svelte & Railway starter+enableStyle:yes" --no-download-check --install pnpm kit-template-railway
+pnpm dlx sv@1.0.0-next.8 create --template minimal --types ts --add drizzle="database:postgresql+postgresql:postgres.js+docker:yes" better-auth="demo:password" sv-addon-railway="projectName:Svelte & Railway starter+enableStyle:yes" --no-download-check --install pnpm kit-template-railway
 ```
 
 ## Adding features
